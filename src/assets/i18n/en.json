@@ -1,0 +1,427 @@
+{
+  "MENUITEMS": {
+    "MAIN": {
+      "TEXT": "Main"
+    },
+
+
+    "Mr.S-Cool": {
+      "TEXT": "Mr. S-Cool",
+      "LIST": {
+        "Homepage": "Homepage",
+        "Dashboard": "Dashboard",
+        "Finance": "Finance "
+
+      }
+    },
+    "Parent": {
+      "TEXT": "Parent Information ",
+      "LIST": {
+        "Homepage": "Homepage",
+        "Dashboard": "Dashboard",
+        "EditProfile": "Edit Profile",
+        "ChangePassword": "Change Password",
+        "Finance": "Finance "
+
+      }
+    },
+    "Information": {
+      "TEXT": "My Information ",
+      "LIST": {
+        "Documents": "My Documents",
+        "EditProfile": "Edit Profile"
+
+      }
+    },
+    "Academic": {
+      "TEXT": "Academic ",
+      "LIST": {
+        "Subjects": "My Subjects",
+        "Schedule": "My Schedule",
+        "FullSubject": "Manage Full Subject Groups ",
+        "ManageLesson": "Manage Lesson Groups "
+      }
+    },
+
+    "StudentsSessions": {
+      "TEXT": "Students Sessions",
+      "TEXT2": "Academic",
+      "LIST": {
+        "Chat": "Chat",
+        "Calendar": "Calendar",
+        "RatesReviews": "Rates & Reviews",
+        "Completed": "Completed Lessons "
+
+      }
+    },
+    "Settings": {
+      "TEXT": "Settings ",
+      "LIST": {
+        "ChangePassword": "Change Password",
+        "Tickets": "Tickets",
+        "SignOut": "Sign out!"
+
+      }
+    },
+    "Chat": {
+      "TEXT": "Chat",
+      "LIST": {
+        "Chat": "Chat"
+      }
+    },
+    "StudentSubjects":{
+      "TEXT": "Student Subjects",
+      "LIST": {
+        "StudentSubjects": "Student Subjects"
+      }
+    },
+    "Calender": {
+      "TEXT": "Calender",
+      "LIST": {
+        "Calender": "Calender",
+        "ReCalendar": "Re Calendar"
+      }
+    },
+    "Documents": {
+      "TEXT": "Documents",
+      "LIST": {
+        "Chat": "Chat"
+      }
+    },
+    "Subjects": {
+      "TEXT": "Subjects",
+      "LIST": {
+        "MySubjects": "My Subjects"
+      }
+    },
+    "Schedule": {
+      "TEXT": "Schedule",
+      "LIST": {
+        "MySchedule": "Schedule",
+        "SubjectGroup": "Subject Group"
+      }
+    },
+
+    "GroupForLesson": {
+      "TEXT": "Schedule",
+      "LIST": {
+        "GroupForLesson": "Group For Lesson",
+        "SubjectGroup": "Subject Group"
+      }
+    },
+    "Completedlessons": {
+      "TEXT": "Completed lessons",
+      "LIST": {
+        "Completedlessons": "Completed lessons"
+      }
+    },
+    "Profile": {
+      "TEXT": "Profile",
+      "LIST": {
+        "EditProfile": "Edit Profile"
+      }
+    },
+    "Tickets": {
+      "TEXT": "Tickets",
+      "LIST": {
+        "Tickets": "Tickets"
+      }
+    },
+    "ParentStudents": {
+      "TEXT": "Parent Students",
+      "LIST": {
+        "ParentStudents": "Parent Students"
+      }
+    },
+    "Finance": {
+      "TEXT": "Finance",
+      "LIST": {
+        "Finance": "Finance"
+      }
+    }
+  },
+
+  "TeacherChat": {
+    "header": {
+      "Message": "Message",
+      "ChatSubtitle": "Chat Sub title",
+      "breadcrumb": "All Files"
+    },
+    "chat": {
+      "SendMessage": "Send Message",
+      "TypeMessage": "Type Message",
+      "Actions": "Actions"
+    }
+  },
+  "File": {
+    "header": {
+      "Newtitle": "New File",
+      "Edittitle": "Edit File"
+    },
+    "form": {
+      "Name": "Name",
+      "MaxName": "Sorry Name  cannot exceed 200 characters",
+      "EName": "Enter Name",
+      "Description": "Description",
+      "EDescription": "Enter Description",
+      "MaxDescription": " Description cannot exceed 5000 characters",
+      "Upload": "Upload",
+      "SizeUpload": "File size exceeds the limit. Please select a file up to 5MB.",
+      "InvalidUpload": " Invalid file type. Please select a valid file type."
+    }
+  },
+  "AllClinicItems": {
+    "header": {
+      "search": "Search",
+      "title": "Items",
+      "breadcrumb": "All Items"
+    },
+    "table": {
+      "Name": "Name",
+      "category": "Category",
+      "unit": "Unit",
+      "quantity": "Quantity",
+      "yellow": "Yellow Limit",
+      "vat": "Vat",
+      "status": "Status",
+      "Actions": "Actions"
+    }
+  },
+  "ChangePassword": {
+    "header": {
+      "Text": "Change Password",
+      "Subtitle": "Enter subtitle here"
+    }
+  },
+  "SubjectGroup": {
+    "header": {
+      "Add": "New Subject Group",
+      "Edittitle": "Edit Item",
+      "Subtitle ": "Enter subtitle here"
+    },
+
+    "form": {
+      "Subject": "Subject",
+      "ChooseSubject": "Choose your Subject",
+      "required": "this field is required",
+      "Group": "Group Name",
+      "PGroup": "Enter your Group Name",
+      "SDate": "Start Date",
+      "STime": "Start Time",
+      "ETime": "End Time",
+      "Day": "Day",
+      "tooltipPlus": "Add a new appointment",
+      "tooltipRemoveRow": "Delete the appointment",
+      "tooltipClearRow": "Clear the appointment",
+      "ChooseDay": "Choose Day",
+      "Review": "Review Details",
+      "clear": "clear",
+      "Filter": "Filter",
+      "Name": "Name",
+      "MaxName": "Sorry Name cannot exceed 200 characters",
+      "EName": "Enter Name"
+    },
+    "Tabble": {
+      "header": {
+        "Title": "Manage My Subject Groups",
+        "subtitle": "Enter subtitle here",
+        "Vat": "Vat"
+      },
+      "thead": {
+        "Subject": "Subject",
+        "Group": "Group Name",
+        "SDate": "Start date ",
+        "EDate": "End date ",
+        "Action": "Action",
+        "STime": "Start Time",
+        "ETime": "End Time",
+        "Day": "Day",
+        "Lesson": "Lesson",
+        "Serial": "Serial",
+
+        "Vat": "Vat"
+      }
+    }
+  },
+
+  "GroupForLesson": {
+    "header": {
+      "Add": "Create New Group For Lesson",
+      "Edittitle": "Edit Item",
+      "Subtitle ": "Enter subtitle here"
+    },
+    "form": {
+      "Subject": "Subject",
+      "ChooseSubject": "Choose your Subject",
+      "required": "this field is required",
+      "Lesson": "Lesson",
+      "ChooseLesson": "Choose your Lesson",
+      "Group": "Group Name",
+      "PGroup": "Enter your Group Name",
+      "SDate": "Start Date",
+      "STime": "Start Time",
+      "ETime": "End Time",
+      "clear": "clear",
+      "Save": "Save",
+      "Filter": "Filter",
+      "takes": " This lesson takes",
+      "Name": "Name",
+      "MaxName": "Sorry Name cannot exceed 200 characters",
+      "EName": "Enter Name"
+    },
+    "Tabble": {
+      "header": {
+        "Title": "Manage My Groups for Lessons",
+        "subtitle": "Enter subtitle here",
+        "Vat": "Vat"
+      },
+      "thead": {
+        "Subject": "Subject",
+        "Lesson": "Lesson Name",
+        "Group": "Group Name",
+        "SDate": " date ",
+        "Action": "Action",
+        "STime": "Start Time",
+        "ETime": "End Time"
+      }
+    }
+  },
+
+  "CompletedLessonDetail": {
+    "header": {
+      "Add": "Subject and Lesson Info",
+      "Edittitle": "Edit Item",
+      "Subtitle ": "Enter subtitle here"
+    },
+    "thead": {
+      "Subject": "Subject",
+      "SubjectBrief": "Subject Brief",
+      "LessonBrief": "Lesson Brief",
+      "Lesson": "Lesson",
+      "Group": "Group Name",
+      "PGroup": "Enter your Group Name",
+      "SDate": "Start Date",
+      "STime": "Start Time",
+      "ETime": "End Time",
+      "clear": "clear",
+      "Save": "Save",
+      "Filter": "Filter",
+      "takes": " This lesson takes",
+      "Name": "Name",
+      "MaxName": "Sorry Name cannot exceed 200 characters",
+      "EName": "Enter Name"
+    },
+    "List": {
+      "header": {
+        "Title": "Manage My Groups for Lessons",
+        "subtitle": "Enter subtitle here",
+        "Vat": "Vat"
+      },
+      "Card": {
+        "Attendance": "Attendance",
+        "Parent": "Parent",
+        "Lesson": "Lesson Name",
+        "Group": "Group Name",
+        "SDate": " date ",
+        "Action": "Action",
+        "STime": "Start Time",
+        "ETime": "End Time"
+      }
+    }
+  },
+
+  "Finance": {
+    "header": {
+      "Finance":"Finance",
+      "Add": "New Subject Group",
+      "Edittitle": "Edit Item",
+      "FinanceSubtitle": "Enter subtitle here"
+    },
+    "balanceCard":{
+      "CurrentBalance":"Current Balance"
+    },
+    "tableCard":{
+      "PurchasedLessons":"Purchased Lessons",
+      "PurchasedLessonsSubtitle": "Enter subtitle here",
+      "PurchasedSubjects":"Purchased Subjects"
+
+    }
+
+  },
+
+  "Booking": {
+    "header": {
+      "title": "Booking Individual Lesson",
+      "titleFull": "Booking Full Subject",
+      "Edittitle": "Edit Item",
+      "Subtitle ": "Enter subtitle here"
+    },
+    "form": {
+      "Subject": "Subject",
+      "ChooseSubject": "Choose your Subject",
+      "required": "this field is required"
+    },
+    "Tabble": {
+      "header": {
+        "Title": "Manage My Groups for Lessons",
+        "subtitle": "Enter subtitle here",
+        "Vat": "Vat"
+      },
+      "thead": {
+        "Subject": "Subject",
+        "Lesson": "Lesson Name",
+        "Group": "Group Name",
+        "SDate": " date ",
+        "Action": "Action",
+        "STime": "Start Time",
+        "ETime": "End Time"
+      }
+    }
+  },
+  "matTooltip": {
+    "Edit": "Edit Row",
+    "Add": "Add",
+    "REFRESH": "REFRESH",
+    "DELETE": "DELETE",
+    "Delete": "Delete Row",
+    "ViewUsers": "View Users",
+    "AllBreeds": "All Breeds",
+    "ChangePassword": "Change Password",
+    "pets": "Pets",
+    "Deactivate": "Deactivate",
+    "Activate": "Activate",
+    "download": "Download",
+    "PurchaseBill": "Purchase Bill"
+  },
+  "Toggle": {
+    "Lock": "Lock",
+    "UnLock": "Un Lock",
+    "Female": "Female",
+    "Male": "Male",
+    "Active": "Active",
+    "InActive": "In Active",
+    "Available": "Available",
+    "NotAvailable": "Not Available",
+    "live": "live",
+    "Dead": "Dead",
+    "Yes": "Yes",
+    "No": "No"
+  },
+  "Forbiddencharacters": "Forbidden characters (< and >) are not allowed.",
+  "buttons": {
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "Update": "Update",
+    "Delete": "Delete"
+  },
+  "DeleteDialog": {
+    "sure": "Are you sure?"
+  },
+
+  "img": {
+    "ChooseFile": "Choose File",
+    "OrDragAndDropFileHere": "or drag and drop file here"
+  }
+
+
+}
