@@ -3,7 +3,77 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: white;
+  overflow-x: hidden;
 
-body{
-  background-color: black;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  a {
+    color: black !important;
+  }
+  .card-bod ul {
+    li {
+      a,
+      h2,
+      h3,
+      h4,
+      h5,
+      p {
+        color: black !important;
+      }
+    }
+  }
+  #header{
+
+    background-color:#000 ;
+
+    ul li a{
+      color: white  !important;
+    }
+  }
 }
+
+html.dark {
+  body {
+    background-color: black;
+    overflow-x: hidden;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    a,
+    nav ul li a {
+      color: white !important;
+    }
+
+       .card  {
+        a,
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+          color: black !important;
+        }
+
+    }
+  }
+  #header{
+
+    background-color:#111827 ;
+
+    ul li a{
+      color: white  !important;
+    }
+  }
+}
+
+

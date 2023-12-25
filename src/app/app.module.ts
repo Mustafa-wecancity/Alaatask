@@ -12,15 +12,16 @@ export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HeaderComponent, FooterComponent,
+  declarations: [AppComponent,HeaderComponent],
+  imports: [BrowserModule, AppRoutingModule, FooterComponent,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
         deps: [HttpClient],
       },
-    })
+    }),
+    HttpClientModule
 
   ],
   providers: [],

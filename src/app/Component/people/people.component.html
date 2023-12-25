@@ -1,0 +1,65 @@
+<div class="d-flex justify-content-center">
+  <div class="input-group mb-3 p-4 w-50">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search "
+      aria-label="Recipient's username"
+      aria-describedby="button-addon2"
+      [(ngModel)]="searchQuery"
+    />
+
+    <button
+      class="btn btn-outline-secondary"
+      type="button"
+      id="button-addon2"
+      (click)="Search()"
+    >
+      {{'Search' |translate}}
+    </button>
+  </div>
+</div>
+<div *ngIf="loading == false">
+  <div class="card-body">
+    <div class="container text-center">
+      <div class="row GridPoeple" *ngIf="errorHandle == false">
+        <div
+          class="col card"
+          *ngFor="let item of PeopleList?.results"
+          routerLink="/people/{{ item.name }}"
+        >
+          <h5 class="card-title py-3">Name : {{ item.name }}</h5>
+        </div>
+      </div>
+      <div class="row GridPoeple" *ngIf="errorHandle == true">
+        <h5 class="card-title text-danger">It isn't found</h5>
+      </div>
+    </div>
+  </div>
+  <nav
+    aria-label="..."
+    class="d-flex align-content-center justify-content-center pt-3"
+  >
+    <ul class="pagination">
+      <li class="page-item disabled" (click)="Previous()">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item" *ngIf="index != 1" (click)="Previous()">
+        <a class="page-link">{{ index - 1 }}</a>
+      </li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link">{{ index }}</a>
+      </li>
+      <li class="page-item" (click)="Next()">
+        <a class="page-link">{{ index + 1 }}</a>
+      </li>
+      <li class="page-item" (click)="Next()">
+        <a class="page-link">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div *ngIf="loading == true" class="spinn">
+  <div class="spinner-border" role="status"></div>
+</div>
